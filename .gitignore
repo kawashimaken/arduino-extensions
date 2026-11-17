@@ -1,0 +1,27 @@
+# Generated files can contain local paths and device/network information.
+.pio/
+.vscode/
+*.log
+
+# Local credentials and machine-specific settings. Publish sanitized examples only.
+.env
+.env.*
+!.env.example
+!.env.*.example
+secrets.h
+secrets.local.h
+platformio.local.ini
+.aws/
+.ssh/
+
+# Private key / credential containers.
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# OS metadata.
+.DS_Store
+Thumbs.db
